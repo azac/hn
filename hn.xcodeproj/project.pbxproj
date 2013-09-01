@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AB0B64B17CFDE08007A3DF0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB0B64A17CFDE08007A3DF0 /* Cocoa.framework */; };
+		0AB0B65517CFDE08007A3DF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AB0B65317CFDE08007A3DF0 /* InfoPlist.strings */; };
+		0AB0B65717CFDE08007A3DF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB0B65617CFDE08007A3DF0 /* main.m */; };
+		0AB0B65B17CFDE08007A3DF0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0AB0B65917CFDE08007A3DF0 /* Credits.rtf */; };
+		0AB0B65E17CFDE08007A3DF0 /* VoiceNewsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB0B65D17CFDE08007A3DF0 /* VoiceNewsAppDelegate.m */; };
+		0AB0B66117CFDE08007A3DF0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AB0B65F17CFDE08007A3DF0 /* MainMenu.xib */; };
+		0ABBB35817D27B650034193D /* HTMLNode.h in Sources */ = {isa = PBXBuildFile; fileRef = 0ABBB35317D27B520034193D /* HTMLNode.h */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0ABBB35917D27B650034193D /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABBB35417D27B520034193D /* HTMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0ABBB35A17D27B650034193D /* HTMLParser.h in Sources */ = {isa = PBXBuildFile; fileRef = 0ABBB35517D27B520034193D /* HTMLParser.h */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0ABBB35B17D27B650034193D /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABBB35617D27B520034193D /* HTMLParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0ABBB36317D27CA20034193D /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ABBB36217D27CA20034193D /* libxml2.2.dylib */; };
+		0ABBB36717D29D770034193D /* hn 1.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0ABBB36617D29D770034193D /* hn 1.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AB0B64717CFDE08007A3DF0 /* hn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB0B64A17CFDE08007A3DF0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0AB0B64D17CFDE08007A3DF0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0AB0B64E17CFDE08007A3DF0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0AB0B64F17CFDE08007A3DF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0AB0B65217CFDE08007A3DF0 /* hn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hn-Info.plist"; sourceTree = "<group>"; };
+		0AB0B65417CFDE08007A3DF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AB0B65617CFDE08007A3DF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AB0B65817CFDE08007A3DF0 /* hn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hn-Prefix.pch"; sourceTree = "<group>"; };
+		0AB0B65A17CFDE08007A3DF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0AB0B65C17CFDE08007A3DF0 /* VoiceNewsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoiceNewsAppDelegate.h; sourceTree = "<group>"; };
+		0AB0B65D17CFDE08007A3DF0 /* VoiceNewsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceNewsAppDelegate.m; sourceTree = "<group>"; };
+		0AB0B66017CFDE08007A3DF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0ABBB35317D27B520034193D /* HTMLNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
+		0ABBB35417D27B520034193D /* HTMLNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
+		0ABBB35517D27B520034193D /* HTMLParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		0ABBB35617D27B520034193D /* HTMLParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
+		0ABBB36217D27CA20034193D /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		0ABBB36617D29D770034193D /* hn 1.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "hn 1.icns"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AB0B64417CFDE08007A3DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABBB36317D27CA20034193D /* libxml2.2.dylib in Frameworks */,
+				0AB0B64B17CFDE08007A3DF0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AB0B63E17CFDE08007A3DF0 = {
+			isa = PBXGroup;
+			children = (
+				0ABBB36217D27CA20034193D /* libxml2.2.dylib */,
+				0AB0B65017CFDE08007A3DF0 /* hn */,
+				0AB0B64917CFDE08007A3DF0 /* Frameworks */,
+				0AB0B64817CFDE08007A3DF0 /* Products */,
+				0ABBB36617D29D770034193D /* hn 1.icns */,
+			);
+			sourceTree = "<group>";
+		};
+		0AB0B64817CFDE08007A3DF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AB0B64717CFDE08007A3DF0 /* hn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AB0B64917CFDE08007A3DF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AB0B64A17CFDE08007A3DF0 /* Cocoa.framework */,
+				0AB0B64C17CFDE08007A3DF0 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AB0B64C17CFDE08007A3DF0 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AB0B64D17CFDE08007A3DF0 /* AppKit.framework */,
+				0AB0B64E17CFDE08007A3DF0 /* CoreData.framework */,
+				0AB0B64F17CFDE08007A3DF0 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0AB0B65017CFDE08007A3DF0 /* hn */ = {
+			isa = PBXGroup;
+			children = (
+				0ABBB35317D27B520034193D /* HTMLNode.h */,
+				0ABBB35417D27B520034193D /* HTMLNode.m */,
+				0ABBB35517D27B520034193D /* HTMLParser.h */,
+				0ABBB35617D27B520034193D /* HTMLParser.m */,
+				0AB0B65C17CFDE08007A3DF0 /* VoiceNewsAppDelegate.h */,
+				0AB0B65D17CFDE08007A3DF0 /* VoiceNewsAppDelegate.m */,
+				0AB0B65F17CFDE08007A3DF0 /* MainMenu.xib */,
+				0AB0B65117CFDE08007A3DF0 /* Supporting Files */,
+			);
+			name = hn;
+			path = VoiceNews;
+			sourceTree = "<group>";
+		};
+		0AB0B65117CFDE08007A3DF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AB0B65217CFDE08007A3DF0 /* hn-Info.plist */,
+				0AB0B65317CFDE08007A3DF0 /* InfoPlist.strings */,
+				0AB0B65617CFDE08007A3DF0 /* main.m */,
+				0AB0B65817CFDE08007A3DF0 /* hn-Prefix.pch */,
+				0AB0B65917CFDE08007A3DF0 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AB0B64617CFDE08007A3DF0 /* hn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB0B66417CFDE08007A3DF0 /* Build configuration list for PBXNativeTarget "hn" */;
+			buildPhases = (
+				0AB0B64317CFDE08007A3DF0 /* Sources */,
+				0AB0B64417CFDE08007A3DF0 /* Frameworks */,
+				0AB0B64517CFDE08007A3DF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hn;
+			productName = VoiceNews;
+			productReference = 0AB0B64717CFDE08007A3DF0 /* hn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AB0B63F17CFDE08007A3DF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VoiceNews;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = AZAC;
+			};
+			buildConfigurationList = 0AB0B64217CFDE08007A3DF0 /* Build configuration list for PBXProject "hn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0AB0B63E17CFDE08007A3DF0;
+			productRefGroup = 0AB0B64817CFDE08007A3DF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AB0B64617CFDE08007A3DF0 /* hn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AB0B64517CFDE08007A3DF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB0B65517CFDE08007A3DF0 /* InfoPlist.strings in Resources */,
+				0AB0B65B17CFDE08007A3DF0 /* Credits.rtf in Resources */,
+				0AB0B66117CFDE08007A3DF0 /* MainMenu.xib in Resources */,
+				0ABBB36717D29D770034193D /* hn 1.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AB0B64317CFDE08007A3DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABBB35817D27B650034193D /* HTMLNode.h in Sources */,
+				0ABBB35917D27B650034193D /* HTMLNode.m in Sources */,
+				0ABBB35A17D27B650034193D /* HTMLParser.h in Sources */,
+				0ABBB35B17D27B650034193D /* HTMLParser.m in Sources */,
+				0AB0B65717CFDE08007A3DF0 /* main.m in Sources */,
+				0AB0B65E17CFDE08007A3DF0 /* VoiceNewsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0AB0B65317CFDE08007A3DF0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AB0B65417CFDE08007A3DF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0AB0B65917CFDE08007A3DF0 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AB0B65A17CFDE08007A3DF0 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0AB0B65F17CFDE08007A3DF0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AB0B66017CFDE08007A3DF0 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AB0B66217CFDE08007A3DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0AB0B66317CFDE08007A3DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0AB0B66517CFDE08007A3DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceNews/hn-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "VoiceNews/hn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0AB0B66617CFDE08007A3DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceNews/hn-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "VoiceNews/hn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AB0B64217CFDE08007A3DF0 /* Build configuration list for PBXProject "hn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB0B66217CFDE08007A3DF0 /* Debug */,
+				0AB0B66317CFDE08007A3DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AB0B66417CFDE08007A3DF0 /* Build configuration list for PBXNativeTarget "hn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB0B66517CFDE08007A3DF0 /* Debug */,
+				0AB0B66617CFDE08007A3DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AB0B63F17CFDE08007A3DF0 /* Project object */;
+}
